@@ -19,6 +19,10 @@ header {
     /* border: 2px solid red; */
 }
 
+/* section {
+    margin-top: 100px;
+} */
+
 
 /* common style  */
 .btn {
@@ -214,6 +218,75 @@ header {
     border-radius: 50%;
 }
 
+.habits-container {
+    margin: 0 auto;
+    width: 80vw;
+    margin-top: 100px;
+    /* border: 2px solid red; */
+}
+
+.habit-title-box {
+    text-align: center;
+    /* width: 90vw; */
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.habit-title {
+    font-size: 3rem;
+    font-weight: 900;
+
+}
+
+.habit-subtitle {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .85rem;
+    font-weight: 400;
+}
+
+.habit-card-container {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.habit-card-box {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid gold; */
+    width: 231px;
+    height: 274px;
+}
+
+.habit-card-image img {
+    border-radius: 50%;
+}
+
+
+/* .habit-card-details-container {
+    border: 2px solid rebeccapurple;
+} */
+
+
+.habit-card-title {
+    margin: 10px;
+    font-size: 1.13rem;
+    font-weight: 600;
+}
+
+.habit-card-subtitle {
+    font-size: .88rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
 
 
 /* width 430 height 932 */
@@ -265,6 +338,22 @@ header {
         text-align: center;
     }
 
+    /* .habits-container {
+        width: 338px;
+        margin: 0 10px;
+    } */
 
+    .habit-card-container {
+        flex-direction: column;
+    }
+
+    .habit-card-box {
+        margin: 20px;
+    }
+
+    .habit-title {
+        font-size: 2.5rem;
+        margin-bottom: 15px;
+    }
 
 }
