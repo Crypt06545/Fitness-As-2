@@ -129,13 +129,19 @@ header {
     color: rgba(255, 255, 255, 0.5);
 }
 
+
+
 .hero-button-container {
     margin-top: 30px;
 }
 
 .hero-image-container {
+    margin: 0 auto;
     position: relative;
+    /* border: 2px solid red; */
 }
+
+
 
 .hero-box1,
 .hero-box2 {
@@ -159,19 +165,8 @@ header {
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
     top: 12%;
-    right: -18%;
+    right: -15%;
 }
-
-.box1-title {
-    font-size: 2.5rem;
-    font-weight: 900;
-    margin-left: 16px;
-}
-
-.box1-desc {
-    margin-left: 16px;
-}
-
 
 .hero-box2 {
     display: flex;
@@ -184,9 +179,30 @@ header {
     border-radius: 12px;
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.54);
-    top: 73%;
-    right: 70%;
+    top: 71%;
+    right: 50%;
 }
+
+.box1-title {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-left: 16px;
+}
+
+.box1-desc {
+    margin-left: 16px;
+}
+
+.box1-desc,
+.box2-desc {
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.box2-title {
+    font-size: 1.5rem;
+}
+
+
 
 .box2-circle {
     background-color: #E6533C;
@@ -247,20 +263,6 @@ header {
         height: 54px;
         padding: 15px;
         text-align: center;
-    }
-
-    .hero-box1 {
-        width: 145.91px;
-        height: 74.09px;
-        top: 15%;
-        right: 0%;
-    }
-
-    .hero-box2 {
-        width: 145.91px;
-        height: 74.09px;
-        top: 720px;
-        right: 295px;
     }
 
 
