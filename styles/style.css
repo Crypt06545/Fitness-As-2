@@ -140,7 +140,6 @@ header {
 }
 
 .hero-image-container {
-    margin: 0 auto;
     position: relative;
     /* border: 2px solid red; */
 }
@@ -248,6 +247,7 @@ header {
 }
 
 .habit-card-container {
+    /* text-align: center; */
     margin-top: 60px;
     display: flex;
     justify-content: space-around;
@@ -286,10 +286,147 @@ header {
     color: rgba(255, 255, 255, 0.5);
 }
 
+.run-section-container {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    margin-top: 100px;
+}
+
+.run-text-content {
+    /* width: 50%; */
+    height: 290px;
+}
+
+
+.run-btn {
+    margin-top: 40px;
+}
+
+.run-title {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+
+.run-subtitle {
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.run-man-image-container img {
+    border-radius: 18px;
+    width: 366px;
+    height: 312px;
+}
+
+
+.bmi-calculate-section {
+    /* margin: 0 auto; */
+    height: 487px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 50px 100px;
+    background: rgb(34, 34, 34);
+}
+
+.bmi-calculator-chart-container,
+.bmi-calculator-form-container {
+    width: 85%;
+}
+
+.bmi-calculator-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.bmi-calculator-subtitle {
+
+    font-size: .90rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 30px;
+}
+
+.bmi-calculator-table {
+    border-radius: 8px;
+    width: 350px;
+    height: 216px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+th {
+    text-align: left;
+    font-size: 1rem;
+}
+
+td {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+
+.bmi-calculator-form input,
+.bmi-calculator-form select {
+    width: 49%;
+    height: 48px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+}
+
+select option{
+    background: rgb(39, 39, 39);
+}
+
+.bmi-calculator-form .activity-select {
+    /* color: rgba(255, 255, 255, 0.6); */
+    width: 99%;
+}
+
+.bmi-calculator-form .calculate-btn {
+    width: 30%;
+}
+
+.bmi-calculator-form .btn.primary-btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
 
 
 
 /* width 430 height 932 */
+/* width 1056 height 772 */
 
 /* Media query for mobile devices */
 @media (max-width: 576px) {
@@ -303,7 +440,6 @@ header {
 
     .hero-section-containern {
         flex-direction: column;
-        /* border: 2px solid rebeccapurple; */
         margin: 0 auto;
         width: 80vw;
     }
@@ -338,11 +474,6 @@ header {
         text-align: center;
     }
 
-    /* .habits-container {
-        width: 338px;
-        margin: 0 10px;
-    } */
-
     .habit-card-container {
         flex-direction: column;
     }
@@ -354,6 +485,39 @@ header {
     .habit-title {
         font-size: 2.5rem;
         margin-bottom: 15px;
+    }
+
+    .run-section-container {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .run-btn {
+        text-align: center;
+    }
+
+    .btn-run-btn {
+        width: 60%;
+    }
+
+    .run-man-image-container {
+        margin-top: 33px;
+    }
+
+    .bmi-calculate-section {
+        flex-direction: column;
+        padding: 50px 25px;
+        height: 775px;
+
+    }
+    .bmi-calculator-chart-container, .bmi-calculator-form-container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+    .bmi-calculator-title {
+        font-size: 1.2rem;
     }
 
 }
