@@ -168,7 +168,7 @@ header {
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
     top: 12%;
-    right: -15%;
+    right: -10%;
 }
 
 .hero-box2 {
@@ -332,6 +332,7 @@ header {
 
 .bmi-calculate-section {
     height: 487px;
+    /* width: 99vw; */
     /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
@@ -425,8 +426,109 @@ select option {
 
 }
 
+/* .our-team-container {
+    border: 2px solid rebeccapurple;
+    width: 90vw;
+
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.our-team-text-container {
+    text-align: center;
+    margin: 0 auto;
+    width: 671px;
+
+}
+
+.our-team-title {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.our-team-subtitle {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .88rem;
+    font-weight: 400;
+    margin-top: 5px;
+    padding: 2px;
+}
+
+.our-team-card-container {
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 85vw;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.team-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+} */
 
 
+
+/* demon  */
+
+.our-team-container {
+    /* border: 2px solid red; */
+    display: grid;
+    border-radius: 18px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 15px;
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.team-card {
+    /* border: 2px solid rebeccapurple; */
+    border-radius: 8px;
+    /* text-align: center; */
+
+}
+
+.team-card img {
+    height: 300px;
+    width: 100%;
+    border-radius: 18px;
+}
+
+.trainer-info {
+    padding: 15px;
+    margin-top: -88px;
+
+}
+
+.trainer-info h3 {
+    /* color: white; */
+    margin: 10px 0 5px;
+    font-size: 1.2rem;
+}
+
+.trainer-info p {
+    /* margin: 0; */
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+
+
+
+/* .team-card{
+    border: 2px solid saddlebrown;
+    border-radius: 8px;
+} */
 
 /* width 430 height 932 */
 /* width 1056 height 772 */
@@ -448,7 +550,8 @@ select option {
     }
 
     .hero-content {
-        margin: 0 auto;
+        /* padding: 15px; */
+        /* margin: 0 auto; */
         width: 352px;
     }
 
@@ -469,16 +572,18 @@ select option {
     }
 
     .hero-box1 {
-        right: -5%;
-        width: 170px;
+        right: 2%;
+        width: 140px;
         height: 98px;
     }
-    .box1-title{
+
+    .box1-title {
         /* border: 2px solid rebeccapurple; */
         font-size: 1.5rem;
         width: 90px;
     }
-    .box1-desc{
+
+    .box1-desc {
         font-size: .86;
     }
 
@@ -543,6 +648,21 @@ select option {
 
     .bmi-calculator-table {
         border-radius: 8px;
+    }
+
+    .our-team-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        /* margin: 10px; */
+        /* margin: 0 auto; */
+    }
+
+    .trainer-info h3 {
+        font-size: 1rem;
+    }
+
+    .trainer-info p {
+        font-size: 0.8rem;
     }
 
 
