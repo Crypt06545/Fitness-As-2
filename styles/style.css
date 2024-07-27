@@ -426,19 +426,16 @@ select option {
 
 }
 
-/* .our-team-container {
-    border: 2px solid rebeccapurple;
-    width: 90vw;
-
-    margin: 0 auto;
-    margin-top: 80px;
-}
-
 .our-team-text-container {
-    text-align: center;
-    margin: 0 auto;
+    /* border: 2px solid green; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
     width: 671px;
-
+    text-align: center;
+    height: 120px;
+    margin: 0 auto;
 }
 
 .our-team-title {
@@ -447,32 +444,11 @@ select option {
 }
 
 .our-team-subtitle {
-    color: rgba(255, 255, 255, 0.5);
-    font-size: .88rem;
+    font-size: .87rem;
     font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
     margin-top: 5px;
-    padding: 2px;
 }
-
-.our-team-card-container {
-    border-radius: 18px;
-    background: rgba(255, 255, 255, 0.1);
-    width: 85vw;
-    margin: 0 auto;
-    margin-top: 40px;
-    display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(3, 1fr);
-}
-.team-card img {
-    width: 100%;
-    height: auto;
-    display: block;
-} */
-
-
-
-/* demon  */
 
 .our-team-container {
     /* border: 2px solid red; */
@@ -663,6 +639,20 @@ select option {
 
     .trainer-info p {
         font-size: 0.8rem;
+    }
+
+    .our-team-text-container {
+        margin-top: 50px;
+        width: 309px;
+        height: 124px;
+    }
+
+    .our-team-title {
+        font-size: 2rem;
+    }
+
+    .our-team-subtitle {
+        margin-top: 10px;
     }
 
 
