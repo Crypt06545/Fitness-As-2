@@ -411,7 +411,6 @@ select option {
 }
 
 .bmi-calculator-form .activity-select {
-    /* color: rgba(255, 255, 255, 0.6); */
     width: 99%;
 }
 
@@ -439,6 +438,7 @@ select option {
 }
 
 .our-team-title {
+    margin-top: 50px;
     font-size: 3rem;
     font-weight: 900;
 }
@@ -461,7 +461,7 @@ select option {
     padding: 15px;
     width: 80vw;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .team-card {
@@ -495,16 +495,83 @@ select option {
     color: rgba(255, 255, 255, 0.5);
 }
 
+.footer-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    background: rgba(255, 255, 255, 0.1);
+    /* margin: 0 auto; */
+    height: 490px;
+    margin-top: 100px;
+}
 
+.footer-details-container {
+    display: flex;
+    /* border: 2px solid red; */
+    width: 80vw;
+    justify-content: space-evenly;
+    height: 249px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
 
+.footer-main-container {}
 
+.footer-text-container {
+    /* border: 2px solid red; */
+    width: 443px;
+    height: 176px;
+    width: 30%;
+}
 
+.footer-logo {
+    font-size: 4.5rem;
+    font-weight: 800;
+}
 
+.footer-details {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .86rem;
+    font-weight: 400;
+}
 
-/* .team-card{
-    border: 2px solid saddlebrown;
-    border-radius: 8px;
-} */
+.footer-items-container {
+    width: 40%;
+    /* border: 2px solid green; */
+    display: flex;
+    margin-left: 390px;
+    justify-content: space-between;
+}
+
+.second-item-title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.footer-secnd-item ul li {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 23px;
+    font-weight: 400;
+    list-style: none;
+    margin-top: 20px;
+    
+}
+
+.footer-line {
+    margin: 0 auto;
+    width: 80vw;
+
+    /* border: 2px solid rgba(255, 255, 255, 0.1); */
+}
+.line-div{
+    /* height: 40px; */
+    color: rgba(218, 120, 120, 0.5);
+
+    /* color: rgba(255, 255, 255, 0.5); */
+
+}
+
 
 /* width 430 height 932 */
 /* width 1056 height 772 */
@@ -527,8 +594,9 @@ select option {
 
     .hero-content {
         /* padding: 15px; */
-        /* margin: 0 auto; */
+        margin: 0 auto;
         width: 352px;
+        margin-left: -15px;
     }
 
 
