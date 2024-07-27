@@ -26,7 +26,7 @@ header {
 
 /* common style  */
 .btn {
-    width: 224px;
+    width: 145px;
     height: 54px;
     font-size: 1.2rem;
     padding: 16px 40px;
@@ -113,7 +113,7 @@ header {
 }
 
 .hero-content {
-    width: 520px;
+    width: 344px;
 
 }
 
@@ -363,16 +363,13 @@ header {
     margin-bottom: 30px;
 }
 
-.bmi-calculator-table {
+.bmi-calculator-table table {
     border-radius: 8px;
     width: 310px;
     height: 216px;
-}
-
-table {
-    width: 100%;
     border-collapse: collapse;
 }
+
 
 th,
 td {
@@ -426,11 +423,6 @@ select option {
 }
 
 .our-team-text-container {
-    /* border: 2px solid green; */
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
     width: 671px;
     text-align: center;
     height: 120px;
@@ -512,11 +504,11 @@ select option {
 }
 
 
-/* .footer-text-container {
+.footer-text-container {
     width: 443px;
     height: 176px;
     width: 30%;
-} */
+}
 
 .footer-logo {
     font-size: 4.5rem;
@@ -527,7 +519,7 @@ select option {
     color: rgba(255, 255, 255, 0.5);
     font-size: .86rem;
     font-weight: 400;
-    width: 50%;
+    width: 100%;
     margin-top: 10px;
 }
 
@@ -560,7 +552,6 @@ select option {
 
 .footer-copyright {
     /* border: 2px solid red; */
-    width: 15%;
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
     margin: 0 auto;
@@ -613,8 +604,13 @@ select option {
 
     .hero-box1 {
         right: 2%;
-        width: 140px;
+        width: 155px;
         height: 98px;
+    }
+
+    .hero-box2 {
+        top: 40%;
+        right: 40%;
     }
 
     .box1-title {
@@ -624,7 +620,7 @@ select option {
     }
 
     .box1-desc {
-        font-size: .86;
+        font-size: .86rem;
     }
 
     .btn {
@@ -670,8 +666,6 @@ select option {
         padding: 30px;
         flex-direction: column;
         height: 775px;
-
-
     }
 
     .bmi-calculator-chart-container,
@@ -686,8 +680,10 @@ select option {
         font-size: 1.2rem;
     }
 
-    .bmi-calculator-table {
+    .bmi-calculator-table table {
+
         border-radius: 8px;
+        width: 265px;
     }
 
     .our-team-container {
@@ -724,7 +720,7 @@ select option {
     }
 
     .footer-details {
-        width: 70%;
+        width: 250px;
     }
 
     .footer-items-container {
