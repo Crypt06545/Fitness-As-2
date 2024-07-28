@@ -10,11 +10,13 @@ body {
     color: white;
     background-color: black;
     font-family: Inter;
+    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
 }
 
 header {
     margin: 0 auto;
     max-width: 1440px;
+
     /* background: linear-gradient(50deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%); */
     /* border: 2px solid red; */
 }
@@ -26,8 +28,7 @@ header {
 
 /* common style  */
 .btn {
-    width: 145px;
-    height: 54px;
+    /* padding: 5px; */
     font-size: 1.2rem;
     padding: 16px 40px;
     text-decoration: none;
@@ -56,6 +57,8 @@ header {
     margin: 35px auto;
     width: 80vw;
     height: 46px;
+    position: sticky;
+    /* margin-top: 0px; */
     /* border: 2px solid green; */
 }
 
@@ -104,6 +107,7 @@ header {
 
 .hero-section-containern {
     display: flex;
+    /* background: black; */
     justify-content: space-between;
     align-items: center;
     /* border: 2px solid rebeccapurple; */
@@ -227,6 +231,7 @@ header {
 }
 
 .habits-container {
+    /* background-color: black; */
     margin: 0 auto;
     width: 80vw;
     margin-top: 100px;
@@ -296,48 +301,73 @@ header {
 }
 
 .run-section-container {
-    padding: 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    /* border: 2px solid rebeccapurple; */
     width: 80vw;
-    /* border: 2px solid red; */
     margin: 0 auto;
-    border-radius: 18px;
-    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
     margin-top: 100px;
+    border-radius: 18px;
+
+    background: rgb(34, 34, 34);
+}
+
+.run-text-container {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .run-text-content {
-    /* width: 50%; */
-    height: 290px;
-}
-
-
-.run-btn {
-    margin-top: 40px;
+    /* border: 2px solid green; */
+    width: 30%;
 }
 
 .run-title {
     font-size: 3rem;
     font-weight: 900;
+    /* border: 2px solid red; */
 }
 
 
 .run-subtitle {
+    /* border: 2px solid gold; */
     margin-top: 15px;
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
 }
 
+.run-btn {
 
-.run-man-image-container img {
-    border-radius: 18px;
-    width: 366px;
-    height: 312px;
+    margin-top: 30px;
 }
 
+.btn-run-btn {
+    display: inline-block;
+    color: white;
+    background-color: #E6533C;
+    border: none;
+    padding: 15px 30px;
+    /* width: 100%; */
+    font-size: 1rem;
+    border-radius: 40px;
+    text-decoration: none;
+    cursor: pointer;
+    /* border: 2px solid red; */
+}
+
+
+.run-man-image-container img {
+    /* border: 2px solid green; */
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+    /* height: 80vw; */
+}
 
 .bmi-calculate-section {
     height: 487px;
@@ -669,21 +699,23 @@ select option {
         margin-bottom: 15px;
     }
 
-    .run-section-container {
+    .run-text-container {
         flex-direction: column;
-        padding: 30px;
     }
 
-    .run-btn {
-        text-align: center;
-    }
-
-    .btn-run-btn {
-        width: 60%;
+    .run-text-content {
+        width: 100%;
     }
 
     .run-man-image-container {
-        margin-top: 33px;
+        margin-top: 50px;
+    }
+
+    .btn-run-btn {
+        font-size: 1.5rem;
+        padding: 20px;
+        width: 100%;
+        text-align: center;
     }
 
     .bmi-calculate-section {
