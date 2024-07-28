@@ -326,7 +326,6 @@ header {
 }
 
 .run-btn {
-    /* border: 2px solid red; */
     margin-top: 30px;
 }
 
@@ -337,7 +336,7 @@ header {
     border: none;
     padding: 15px 30px;
     text-align: center;
-    width: 40%;
+    width: 45%;
     font-size: 1rem;
     border-radius: 40px;
     text-decoration: none;
@@ -351,7 +350,6 @@ header {
     width: 100%;
     max-width: 400px;
     border-radius: 15px;
-    /* height: 80vw; */
 }
 
 .bmi-calculate-section {
@@ -581,9 +579,110 @@ select option {
     font-weight: 400;
 }
 
+.pricing-section-container {
+    margin-top: 100px;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* margin: 20px; */
+    border-radius: 8px;
+    text-align: center;
+
+}
+
+.pricing-section-heading-container {
+    margin-bottom: 20px;
+}
+
+.pricing-title {
+    font-size: 2em;
+}
+
+
+.pricing-card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pricing-card {
+    background: black;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(179, 179, 179, 0.1);
+    min-width: 250px;
+    max-width: 300px;
+    color: #fff;
+    text-align: left;
+    height: 410px;
+}
+
+.pricing-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pricing-header i {
+    font-size: 2.5rem;
+    color: #E6533C;
+}
+.plan-title {
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+
+.plan-price {
+    font-size: 1.2em;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 5px;
+}
+
+.plan-features {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.plan-features li {
+    font-size: 1.1em;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.icon-right, .icon-cross {
+    margin-right: 10px;
+}
+
+.icon-right {
+    color: green;
+}
+
+.icon-cross {
+    color: red;
+}
+.plan-btn-container{
+    text-align: center;
+}
+
+.plan-button {
+    background: #E6533C;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
 
 /* width 1056 height 772 */
 
+/* 1024 4.4 ren hero-title  992 width*/
+
+/* .hero-image-container img {
+    width: 250px;
+} */
 /* Media query for mobile devices */
 @media (max-width: 576px) {
     .navul {
@@ -596,7 +695,6 @@ select option {
 
     .hero-section-containern {
         flex-direction: column;
-        /* border: 2px solid red; */
 
     }
 
@@ -609,7 +707,6 @@ select option {
     .hero-content {
         margin: 0 auto;
         width: 85%;
-        /* margin-left: -10px; */
     }
 
 
@@ -640,7 +737,6 @@ select option {
     }
 
     .box1-title {
-        /* border: 2px solid rebeccapurple; */
         font-size: 1.5rem;
         width: 90px;
     }
@@ -658,7 +754,6 @@ select option {
 
     .hero-button-container {
         width: 100%;
-        /* border: 2px solid rebeccapurple; */
     }
 
     .hero-image-container img {
@@ -674,7 +769,7 @@ select option {
     }
 
     .habit-title {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
         margin-bottom: 15px;
     }
 
@@ -789,5 +884,8 @@ select option {
 
     .footer-copyright {
         width: auto;
+    }
+    .pricing-title {
+        font-size: 1.8em;
     }
 }
