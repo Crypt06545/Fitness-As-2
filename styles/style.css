@@ -67,7 +67,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 46px;
+    height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
 }
@@ -88,7 +88,7 @@ header {
 
 
 .logo-name {
-    font-size: 36px;
+    font-size: 2.5rem;
     font-weight: 800;
     color: #E6533C;
 }
@@ -113,11 +113,12 @@ header {
 }
 
 .hero-content {
-    width: 344px;
-
+    width: 40%;
+    /* border: 2px solid green; */
 }
 
 .hero-title {
+    /* border: 2px solid red; */
     font-size: 4.5rem;
     font-weight: 900;
     width: 520px;
@@ -129,19 +130,27 @@ header {
 }
 
 .hero-desc {
+    /* border: 2px solid blue; */
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
+    width: 89%;
 }
 
 
 
 .hero-button-container {
+    /* border: 2px solid gold; */
+    width: 460px;
     margin-top: 30px;
 }
 
 .hero-image-container {
     position: relative;
     /* border: 2px solid red; */
+}
+
+.hero-image-container img {
+    width: 340px;
 }
 
 
@@ -575,37 +584,42 @@ select option {
 
     .hero-section-containern {
         flex-direction: column;
+        /* border: 2px solid red; */
+
+    }
+
+    .hero-section-containern {
+        flex-direction: column;
         margin: 0 auto;
-        width: 80vw;
+        width: 100vw;
     }
 
     .hero-content {
-        /* padding: 15px; */
         margin: 0 auto;
-        width: 352px;
-        margin-left: -15px;
+        width: 85%;
+        /* margin-left: -10px; */
     }
 
 
     .hero-title {
         font-size: 2.5rem;
         font-weight: 900;
-        width: 285px;
-        height: 129px;
+        width: 60%;
+        height: auto;
     }
 
     .hero-desc {
         margin-top: 30px;
-        width: 274px;
-        height: 96px;
+        width: 80%;
+        height: auto;
         font-weight: 400;
 
     }
 
     .hero-box1 {
-        right: 2%;
+        right: -5%;
         width: 155px;
-        height: 98px;
+        height: 85px;
     }
 
     .hero-box2 {
@@ -625,11 +639,21 @@ select option {
 
     .btn {
         display: inline-block;
-        width: 150px;
+        /* width: 135px; */
         font-size: 1rem;
-        height: 54px;
-        padding: 15px;
+        /* height: 54px; */
+        padding: 10px;
         text-align: center;
+    }
+
+    .hero-button-container {
+        /* text-align: center; */
+        width: 100%;
+        /* border: 2px solid rebeccapurple; */
+    }
+
+    .hero-image-container img {
+        width: 300px;
     }
 
     .habit-card-container {
