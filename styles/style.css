@@ -10,20 +10,16 @@ body {
     color: white;
     background-color: black;
     font-family: Inter;
-    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
 }
+
 
 header {
     margin: 0 auto;
-    max-width: 1440px;
-
-    /* background: linear-gradient(50deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%); */
-    /* border: 2px solid red; */
+    /* width: 98vw; */
+    background: linear-gradient(180.00deg, rgb(34, 34, 34), rgba(119, 119, 119, 0) 100%);
+    border: 1px solid black;
 }
 
-/* section {
-    margin-top: 100px;
-} */
 
 
 /* common style  */
@@ -57,8 +53,6 @@ header {
     margin: 35px auto;
     width: 80vw;
     height: 46px;
-    position: sticky;
-    /* margin-top: 0px; */
     /* border: 2px solid green; */
 }
 
@@ -107,7 +101,6 @@ header {
 
 .hero-section-containern {
     display: flex;
-    /* background: black; */
     justify-content: space-between;
     align-items: center;
     /* border: 2px solid rebeccapurple; */
@@ -177,7 +170,6 @@ header {
     height: 98px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
-
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
     top: 12%;
@@ -230,8 +222,8 @@ header {
     border-radius: 50%;
 }
 
+
 .habits-container {
-    /* background-color: black; */
     margin: 0 auto;
     width: 80vw;
     margin-top: 100px;
@@ -240,8 +232,6 @@ header {
 
 .habit-title-box {
     text-align: center;
-    /* width: 90vw; */
-    /* margin: 0 auto; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -284,11 +274,6 @@ header {
 }
 
 
-/* .habit-card-details-container {
-    border: 2px solid rebeccapurple;
-} */
-
-
 .habit-card-title {
     margin: 10px;
     font-size: 1.13rem;
@@ -310,7 +295,6 @@ header {
     padding: 30px;
     margin-top: 100px;
     border-radius: 18px;
-
     background: rgb(34, 34, 34);
 }
 
@@ -342,7 +326,7 @@ header {
 }
 
 .run-btn {
-
+    /* border: 2px solid red; */
     margin-top: 30px;
 }
 
@@ -352,7 +336,8 @@ header {
     background-color: #E6533C;
     border: none;
     padding: 15px 30px;
-    /* width: 100%; */
+    text-align: center;
+    width: 40%;
     font-size: 1rem;
     border-radius: 40px;
     text-decoration: none;
@@ -371,8 +356,6 @@ header {
 
 .bmi-calculate-section {
     height: 487px;
-    /* width: 99vw; */
-    /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
@@ -498,7 +481,6 @@ select option {
 .team-card {
     /* border: 2px solid rebeccapurple; */
     border-radius: 8px;
-    /* text-align: center; */
 
 }
 
@@ -632,7 +614,7 @@ select option {
 
 
     .hero-title {
-        font-size: 2.5rem;
+        font-size: 2rem;
         font-weight: 900;
         width: 60%;
         height: auto;
@@ -669,15 +651,12 @@ select option {
 
     .btn {
         display: inline-block;
-        /* width: 135px; */
         font-size: 1rem;
-        /* height: 54px; */
         padding: 10px;
         text-align: center;
     }
 
     .hero-button-container {
-        /* text-align: center; */
         width: 100%;
         /* border: 2px solid rebeccapurple; */
     }
@@ -705,6 +684,10 @@ select option {
 
     .run-text-content {
         width: 100%;
+    }
+
+    .run-title {
+        font-size: 2rem;
     }
 
     .run-man-image-container {
@@ -745,8 +728,7 @@ select option {
     .our-team-container {
         grid-template-columns: repeat(1, 1fr);
         gap: 30px;
-        /* margin: 10px; */
-        /* margin: 0 auto; */
+
     }
 
     .trainer-info h3 {
@@ -807,6 +789,5 @@ select option {
 
     .footer-copyright {
         width: auto;
-        /* margin-bottom: 30px */
     }
 }
