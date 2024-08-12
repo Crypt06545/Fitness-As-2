@@ -508,7 +508,7 @@ select option {
 
 .footer-main-container {
     background: rgba(255, 255, 255, 0.1);
-    height: 360px;
+    /* height: 30vh; */
 
     margin-top: 100px;
 }
@@ -627,6 +627,7 @@ select option {
     font-size: 2.5rem;
     color: #E6533C;
 }
+
 .plan-title {
     font-size: 1.5em;
     margin-top: 15px;
@@ -651,7 +652,8 @@ select option {
     align-items: center;
 }
 
-.icon-right, .icon-cross {
+.icon-right,
+.icon-cross {
     margin-right: 10px;
 }
 
@@ -662,7 +664,8 @@ select option {
 .icon-cross {
     color: red;
 }
-.plan-btn-container{
+
+.plan-btn-container {
     text-align: center;
 }
 
@@ -885,7 +888,57 @@ select option {
     .footer-copyright {
         width: auto;
     }
+
     .pricing-title {
         font-size: 1.8em;
+    }
+}
+
+/* Media query for large devices */
+
+@media (min-width: 993px) and (max-width: 1290px) {
+    .hero-image-container img {
+        width: 250px;
+    }
+
+    .hero-title {
+        font-size: 4.2rem;
+    }
+
+    .hero-box1 {
+        right: -30%;
+        top: 18%;
+    }
+
+    .hero-box2 {
+        right: 30%;
+    }
+
+    .btn {
+        padding: 15px 30px;
+    }
+
+    .run-title {
+        font-size: 2rem;
+    }
+
+    .run-subtitle {
+        font-size: 12px;
+    }
+
+    .btn-run-btn {
+        width: 60%;
+    }
+
+    .footer-logo {
+        font-size: 4rem;
+    }
+
+    .second-item-title {
+        font-size: 25px;
+    }
+
+    .footer-secnd-item ul li {
+        font-size: 15px;
     }
 }
